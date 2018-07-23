@@ -5,7 +5,7 @@ The process involves 2 parts, the script which runs on the micro:bit and the Pyt
 The script that runs on the BBC micro:bit was written using JavaScript on https://makecode.microbit.org/. Copy the JavaScript code into the editor then click the button to switch to blocks. If you want to log something different other than the temperature and light values, simply change the input block in the ```serial write line``` block. ```Join``` is used to write multiple values on one line. If you use this you need to add a space character between each value so the logging script will read it correctly.
 
 ## Micro:bit script Python
-This code sends the temperature to the logging computer. Unfortunately, micro:python can't currently read the light levels. 
+This code writes the temperature to the serial port. Unfortunately, micro:python can't currently be used to read the light level. 
     
 ## Python logging script   
 The simple Python 3 micro:bit logging script runs on the logging computer which has the micro:bit plugged into it via USB.   
