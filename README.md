@@ -10,3 +10,5 @@ Note: This program is written in JavaScript as currently MicroPython can’t rea
 The Python 3 micro:bit logging program runs on the logging computer which has the micro:bit plugged into it via USB.   
 It reads and interprets each line, converting it across at the end to the ```microbit_data.csv``` file.   
 To force the Python script to output the .csv file, simply close/stop the program, or disconnect the micro:bit.  
+
+Note: run this program in Linux as you need to install an extra driver to get it to work on Windows.
